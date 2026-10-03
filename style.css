@@ -1,0 +1,23 @@
+body{
+   margin:0;
+   padding:0;
+   font-family:Arial, sans-serif;
+   background-color:rgb(227, 220, 220);
+}
+ header{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:rgb(41, 113, 180);
+ }
+ nav a{
+    display:flex;
+    align-items:center;
+    margin :10px;
+    text-decoration:none;
+ }
+ .books{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+ }
